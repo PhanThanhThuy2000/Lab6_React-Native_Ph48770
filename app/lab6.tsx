@@ -35,7 +35,7 @@ const lab6 = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get<User[]>(
-        "https://jsonplaceholder.typicode.com/users"
+        "https://67b004f1dffcd88a6788278f.mockapi.io/users"
       );
       setUsers(response.data);
     } catch (error) {
